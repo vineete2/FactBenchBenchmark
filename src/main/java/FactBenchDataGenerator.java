@@ -42,10 +42,6 @@ public class FactBenchDataGenerator extends AbstractDataGenerator {
         sendDataToTaskGenerator(modelToBytes(model));
     }
 
-    protected void createStatements(List<Statement> statementList) {
-
-    }
-
     protected byte[] modelToBytes(Model tripleModel) {
         byte[] data;
 
