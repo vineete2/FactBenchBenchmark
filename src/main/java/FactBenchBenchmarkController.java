@@ -29,7 +29,7 @@ public class FactBenchBenchmarkController extends AbstractBenchmarkController {
         String dataGeneratorImg = "";
         int numDataGenerator = 1;
         String[] env = new String[]{};      // Docker port, seedId etc.
-        createTaskGenerators(dataGeneratorImg, numDataGenerator, env);
+        createDataGenerators(dataGeneratorImg, numDataGenerator, env);
     }
 
     protected void triggerTaskGenerator() {
